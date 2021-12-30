@@ -1,0 +1,20 @@
+#defaultparamex1.py
+def dispstudinfo(sno,sname,marks,crs="Python",cnt="India"):
+      print("{}\t{}\t{}\t{}\t{}".format(sno,sname,marks,crs,cnt))
+#main program
+print("---------------------------------------------------")
+print("Stno\tName\tMarks\tCourse\tCountry")
+print("----------------------------------------------------")
+dispstudinfo(10,"Shital",66.66)
+dispstudinfo(20,"Prakash",76.66)
+dispstudinfo(30,"Shri",86.66)
+dispstudinfo(40,"Manas",96.66)
+dispstudinfo(50,"Ajay",56.66)
+dispstudinfo(60,"Vijay",60.66)
+dispstudinfo(70,"Shyam",60.66)
+dispstudinfo(80,"Furkhan",64.45,"Java")
+dispstudinfo(90,"Nihal",64.45,"RDBMS","USA")
+dispstudinfo(90,"Arjun",56.66)
+dispstudinfo(15,"Vin",44.44,"Java")
+dispstudinfo(16,"Kawale",44.44,"")
+print("-------------------------------------------")
